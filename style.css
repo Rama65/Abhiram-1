@@ -223,11 +223,28 @@ a.active,a:hover{
 	background-color:#262525;
 }
 
+.appli{
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 30rem;
+
+}
+.appli-2{
+	font-size: 2rem;
+	text-align: center;
+	margin-top: 2rem;
+
+}
 
 .box-container{
 	display:flex;
 	justify-content:space-between;
 }
+.boxes-2{
+	justify-content: space-between;
+
+}
+
 
 .box-container-2{
 display: flex;
@@ -260,7 +277,7 @@ align-items: center;
 }
 .box-4,.box-5{
 	width: 300px;
-	height:320px;
+	height:250px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	box-shadow:2px 2px 18px rgba(0,0,0,0.3);
@@ -273,6 +290,22 @@ align-items: center;
 	
 
 }
+.banana,.pig{
+	width: 300px;
+	height:250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:2px 2px 18px rgba(0,0,0,0.3);
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 4px;
+	border-radius: 1rem;
+	background-color: black;
+}
+
+
 
 .box-6,.box-7{
 	width: 320px;
@@ -311,6 +344,9 @@ align-items: center;
 	background-color: black
 	;
 }
+.banana,.pig{
+	background-color:black;
+}
 
 
 
@@ -330,7 +366,9 @@ align-items: center;
 	font-weight: bold;
 }
 .box-6 span,
-.box-7 span{
+.box-7 span,
+.banana span,
+.pig span{
 	width:40px;
 	height:40px;
 	border-radius:50%;
@@ -365,6 +403,12 @@ align-items: center;
 }
 
 .box-container-3 .heading{
+	color:#FFFFFF;
+	font-family: calibri;
+	font-size: 18px;
+	line-height:0px;
+}
+.banana,.pig{
 	color:#FFFFFF;
 	font-family: calibri;
 	font-size: 18px;
